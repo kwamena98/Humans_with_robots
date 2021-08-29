@@ -12,10 +12,11 @@ nice=[1,2,3,45,3,2,2,1,2,3,4,3,2,6]
 humans=[i for i in nice if i ==1 ]
 robots=[v for v in nice if v!=1]  
 global slap
-pluser=0
+
 
 def loop_for_humans(x):
-	slap=0
+    pluser=0
+    slap=0
     if pluser!=2:
         for n in x:
             if decision=="left" or decision=="right":
@@ -42,8 +43,7 @@ def loop_for_humans(x):
                             slap+=1
                             print("Please Gimme way")
     else:
-        break
-                    
+        pass  
 
 
 def loop_for_robots(c):
